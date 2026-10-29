@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "filename": "korean-sample.png",
+  "sha256": "145757a92e6a0297a21cc8f4e09d178e61c59ec7a81d3fd946a71f67dbacd212",
+  "source": "source.png",
+  "settings": {
+    "ocr_languages": "kor+eng",
+    "render_dpi": 180,
+    "vision_model": null
+  },
+  "confidence_notice": "검토 우선순위를 위한 비보정 휴리스틱. 정확도 확률이 아님.",
+  "pages": [
+    {
+      "number": 1,
+      "status": "ok",
+      "document_type": "image",
+      "method": "ocr",
+      "original_image": "assets/page-001-original.png",
+      "selected_image": "assets/page-001-selected.png",
+      "pdf_size_points": null,
+      "quality": {
+        "width": 1600,
+        "height": 850,
+        "contrast_span": 0.0,
+        "laplacian_variance": 367.59,
+        "low_contrast_candidate": true,
+        "blur_candidate": false,
+        "note": "해상도·배경에 민감한 휴리스틱이며 품질 확정 판정이 아닙니다."
+      },
+      "preprocessing": {
+        "selected": "original",
+        "actions": [],
+        "candidates": [
+          {
+            "name": "original",
+            "actions": [],
+            "ocr_confidence": 0.929,
+            "character_count": 38
+          },
+          {
+            "name": "adaptive",
+            "actions": [
+              "clahe",
+              "gaussian_blur_3",
+              "adaptive_threshold"
+            ],
+            "ocr_confidence": 0.927,
+            "character_count": 38
+          }
+        ]
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "문서 전처리 테스트",
+          "bbox": [
+            102,
+            105,
+            460,
+            147
+          ],
+          "confidence": 0.96,
+          "source": "tesseract",
+          "coordinate_space": "selected_image_pixels",
+          "id": "p1-e1",
+          "page": 1
+        },
+        {
+          "type": "text",
+          "text": "매출 1200 원",
+          "bbox": [
+            103,
+            218,
+            340,
+            273
+          ],
+          "confidence": 0.913,
+          "source": "tesseract",
+          "coordinate_space": "selected_image_pixels",
+          "id": "p1-e2",
+          "page": 1
+        },
+        {
+          "type": "text",
+          "text": "비용 400 원",
+          "bbox": [
+            104,
+            341,
+            325,
+            398
+          ],
+          "confidence": 0.917,
+          "source": "tesseract",
+          "coordinate_space": "selected_image_pixels",
+          "id": "p1-e3",
+          "page": 1
+        },
+        {
+          "type": "text",
+          "text": "합계 800 원",
+          "bbox": [
+            102,
+            459,
+            325,
+            514
+          ],
+          "confidence": 0.903,
+          "source": "tesseract",
+          "coordinate_space": "selected_image_pixels",
+          "id": "p1-e4",
+          "page": 1
+        }
+      ],
+      "visual_regions": [],
+      "vision": {
+        "status": "disabled",
+        "verified": false,
+        "confidence": null
+      },
+      "evidence": {
+        "native_text": "",
+        "ocr_candidates": [
+          {
+            "text": "문서 전처리 테스트\n매출 1200 원\n비용 400 원\n합계 800 원",
+            "elements": [
+              {
+                "type": "text",
+                "text": "문서 전처리 테스트",
+                "bbox": [
+                  102,
+                  105,
+                  460,
+                  147
+                ],
+                "confidence": 0.96,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels",
+                "id": "p1-e1",
+                "page": 1
+              },
+              {
+                "type": "text",
+                "text": "매출 1200 원",
+                "bbox": [
+                  103,
+                  218,
+                  340,
+                  273
+                ],
+                "confidence": 0.913,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels",
+                "id": "p1-e2",
+                "page": 1
+              },
+              {
+                "type": "text",
+                "text": "비용 400 원",
+                "bbox": [
+                  104,
+                  341,
+                  325,
+                  398
+                ],
+                "confidence": 0.917,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels",
+                "id": "p1-e3",
+                "page": 1
+              },
+              {
+                "type": "text",
+                "text": "합계 800 원",
+                "bbox": [
+                  102,
+                  459,
+                  325,
+                  514
+                ],
+                "confidence": 0.903,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels",
+                "id": "p1-e4",
+                "page": 1
+              }
+            ],
+            "confidence": 0.9285185185185185,
+            "name": "original",
+            "actions": []
+          },
+          {
+            "text": "문서 전처리 테스트\n매출 1200 원\n비용 400 원\n합계 800 원",
+            "elements": [
+              {
+                "type": "text",
+                "text": "문서 전처리 테스트",
+                "bbox": [
+                  101,
+                  105,
+                  461,
+                  148
+                ],
+                "confidence": 0.96,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels"
+              },
+              {
+                "type": "text",
+                "text": "매출 1200 원",
+                "bbox": [
+                  103,
+                  218,
+                  341,
+                  274
+                ],
+                "confidence": 0.907,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels"
+              },
+              {
+                "type": "text",
+                "text": "비용 400 원",
+                "bbox": [
+                  103,
+                  338,
+                  324,
+                  395
+                ],
+                "confidence": 0.91,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels"
+              },
+              {
+                "type": "text",
+                "text": "합계 800 원",
+                "bbox": [
+                  101,
+                  458,
+                  325,
+                  515
+                ],
+                "confidence": 0.917,
+                "source": "tesseract",
+                "coordinate_space": "selected_image_pixels"
+              }
+            ],
+            "confidence": 0.9266666666666666,
+            "name": "adaptive",
+            "actions": [
+              "clahe",
+              "gaussian_blur_3",
+              "adaptive_threshold"
+            ]
+          }
+        ]
+      },
+      "validation": {
+        "confidence": 0.929,
+        "score_kind": "uncalibrated_heuristic",
+        "text_integrity": 1.0,
+        "native_ocr_agreement": null,
+        "candidate_agreement": 1.0,
+        "semantic_verified": false,
+        "needs_review": true,
+        "warnings": [
+          "그림의 의미와 수식을 해석하지 않았습니다. 시각 자료는 원본을 확인하세요."
+        ],
+        "reading_order": "simple_top_to_bottom; complex_columns_require_review"
+      }
+    }
+  ],
+  "status": "completed",
+  "confidence": 0.929
+}
